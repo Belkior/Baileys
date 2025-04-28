@@ -596,6 +596,8 @@ export const makeMessagesSocket = (config: SocketConfig) => {
 			return 'poll'
 		}
 
+		console.log("Nova Mensagem")
+
 		return 'text'
 	}
 
