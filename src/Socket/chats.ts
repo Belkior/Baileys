@@ -10,7 +10,7 @@ import processMessage from '../Utils/process-message'
 import { BinaryNode, getBinaryNodeChild, getBinaryNodeChildren, jidNormalizedUser, reduceBinaryNodeToDictionary, S_WHATSAPP_NET } from '../WABinary'
 import { USyncQuery, USyncUser } from '../WAUSync'
 import { makeUSyncSocket } from './usync'
-const MAX_SYNC_ATTEMPTS = 2
+const MAX_SYNC_ATTEMPTS = 1
 
 export const makeChatsSocket = (config: SocketConfig) => {
 	const {
